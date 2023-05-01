@@ -8,6 +8,7 @@ function NavMenu() {
   // navigate : 페이지 이동
   let navigate = useNavigate();
 
+  // state
   const user = useSelector((state) => state.user);
 
   // logout
@@ -17,11 +18,12 @@ function NavMenu() {
       if (res.data.success) {
         navigate("/login"); // "/login" 페이지로 이동
       } else {
-        alert("로그아웃에 실패했습니다."); // error
+        alert("로그아웃을 실패했습니다. 다시 시도해주세요."); // error
       }
     });
   };
 
+  // nav menu
   if (user.userData && !user.userData.isAuth) {
     // user가 로그인을 하지 않았을 경우
     return (
