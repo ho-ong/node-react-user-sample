@@ -13,6 +13,7 @@
 <br>
 
 ## Main Function
+- Home : /
 - User
   - Login : /login
   - Logout : /logout

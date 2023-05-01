@@ -6,6 +6,10 @@ import LandingPage from "./components/views/LandingPage/LandingPage";
 import LoginPage from "./components/views/LoginPage/LoginPage";
 import JoinPage from "./components/views/JoinPage/JoinPage";
 
+// Component
+import Nav from "./components/views/Nav/Nav";
+import Footer from "./components/views/Footer/Footer";
+
 // HOC(Auth)
 import Auth from "./_hoc/auth";
 
@@ -18,11 +22,13 @@ function App() {
 
   return (
     <BrowserRouter>
+      <Nav />
       <Routes>
         <Route path="/" element={<AuthLandingPage />} />
         <Route path="/login" element={<AuthLoginPage />} />
         <Route path="/join" element={<AuthJoinPage />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
