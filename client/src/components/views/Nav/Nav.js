@@ -6,6 +6,7 @@ import "./Nav.css";
 import NavMenu from "./NavMenu";
 
 function Nav() {
+  // side menu show & close
   const [visible, setVisible] = useState(false);
 
   const showSideMenu = () => {
@@ -16,6 +17,7 @@ function Nav() {
     setVisible(false);
   };
 
+  // nav
   return (
     <nav>
       {/* Logo */}
