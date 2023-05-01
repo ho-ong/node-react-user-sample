@@ -1,12 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import "./reset-antd.css";
 import App from "./App";
-
-// Ant Design : CSS Framework
-// Ant Design v5 이후 import 하지 않아도 된다.
-// import "antd/dist/antd.css";
 
 // Redux
 import { Provider } from "react-redux";
