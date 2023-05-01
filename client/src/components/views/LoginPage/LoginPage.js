@@ -45,23 +45,23 @@ function LoginPage() {
   };
 
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        width: "100%",
-        height: "100vh",
-      }}
-    >
-      <form
-        style={{ display: "flex", flexDirection: "column" }}
-        onSubmit={onSubmitHandler}
-      >
+    <div className="container--center">
+      <form className="form--center" onSubmit={onSubmitHandler}>
+        <h2>Login</h2>
         <label>Email</label>
-        <input type="email" value={email} onChange={onEmailHandler} />
+        <input
+          type="email"
+          placeholder="Email"
+          value={email}
+          onChange={onEmailHandler}
+        />
         <label>Password</label>
-        <input type="password" value={password} onChange={onPasswordHandler} />
+        <input
+          type="password"
+          placeholder="Password"
+          value={password}
+          onChange={onPasswordHandler}
+        />
         <br />
         <button>Login</button>
       </form>
