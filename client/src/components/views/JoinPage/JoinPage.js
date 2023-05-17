@@ -61,8 +61,8 @@ function JoinPage() {
   };
 
   return (
-    <div className="container--center">
-      <form className="form--small" onSubmit={onSubmitHandler}>
+    <div className="container-center">
+      <form className="form-small" onSubmit={onSubmitHandler}>
         <h2>Join</h2>
         <label>Email</label>
         <input
