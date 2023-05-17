@@ -45,8 +45,8 @@ function LoginPage() {
   };
 
   return (
-    <div className="container--center">
-      <form className="form--small" onSubmit={onSubmitHandler}>
+    <div className="container-center">
+      <form className="form-small" onSubmit={onSubmitHandler}>
         <h2>Login</h2>
         <label>Email</label>
         <input
