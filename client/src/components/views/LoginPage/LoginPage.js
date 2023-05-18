@@ -14,7 +14,7 @@ function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  // onChange handler
+  // onChangeHandler
   const onEmailHandler = (e) => {
     setEmail(e.currentTarget.value);
   };
@@ -23,7 +23,7 @@ function LoginPage() {
     setPassword(e.currentTarget.value);
   };
 
-  // onSubmit handler
+  // onSubmitHandler
   const onSubmitHandler = (e) => {
     // HTML 태그의 기본 이벤트 발생을 막는 메서드
     e.preventDefault();
