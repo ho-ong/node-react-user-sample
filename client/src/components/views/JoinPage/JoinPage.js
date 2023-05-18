@@ -16,7 +16,7 @@ function JoinPage() {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 
-  // onChange handler
+  // onChangeHandler
   const onEmailHandler = (e) => {
     setEmail(e.currentTarget.value);
   };
@@ -33,7 +33,7 @@ function JoinPage() {
     setConfirmPassword(e.currentTarget.value);
   };
 
-  // onSubmit handler
+  // onSubmitHandler
   const onSubmitHandler = (e) => {
     // HTML 태그의 기본 이벤트 발생을 막는 메서드
     e.preventDefault();
