@@ -43,10 +43,10 @@ npm run dev
 
 ## View
 ###### Index
-<img src="image/page/img_page_index.png" />
+<img src="image/page/img_page_index.png" style="border: 1px solid black" />
 
 ###### Login
-<img src="image/page/img_page_login.png" />
+<img src="image/page/img_page_login.png" style="border: 1px solid black" />
 
 ###### Join
-<img src="image/page/img_page_join.png" />
+<img src="image/page/img_page_join.png" style="border: 1px solid black" />
